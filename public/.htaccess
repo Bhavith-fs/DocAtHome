@@ -1,0 +1,18 @@
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /docathome/
+
+# Redirect everything to /public/
+RewriteCond %{REQUEST_URI} !^/docathome/public/
+RewriteRule ^(.*)$ public/$1 [L]
+
+# Hide .php extensions
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+# Block direct access to config/ and SQL files
+<FilesMatch "\.(sql|ini|env|config|bak)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
