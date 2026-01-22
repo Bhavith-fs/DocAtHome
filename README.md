@@ -66,9 +66,8 @@ chats/                   — Secure storage for signaling files
 setup.bat                — One-click installation script
 ```
 
----
 
-## 🤝 Connect
+## 👤 Author
 
-**Bhavith**  
-Cybersecurity & Networking Security Enthusiast
+Bhavith Madhav  
+Cybersecurity & Network Security Enthusiast
