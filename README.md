@@ -52,7 +52,7 @@
 
 1. **Clone / Copy** the project folder to `C:\xampp\htdocs\DocAtHome`.  
 2. **Start XAMPP**: Ensure Apache and MySQL are running.  
-3. **Run Automatic Installation**: Double-click `setup.bat` to create the database and import tables automatically.  
+3. **Run Automatic Installation**: Double-click `setup.bat` to create the database and import tables automatically. 
 4. **Launch**: Open your browser and visit [http://localhost/DocAtHome/](http://localhost/DocAtHome/).  
 
 ---
